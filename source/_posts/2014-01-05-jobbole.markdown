@@ -1,0 +1,15 @@
+---
+layout: post
+title: "技术文章翻译榜"
+date: 2014-01-05 10:49:27 +0800
+comments: true
+categories: translate
+tags: translate
+---
+于2014年1月2日加入了伯乐在线技术翻译小组，这是翻译清单，以后会持续增加，如果有适合的文章也会转载到我的博客上的。
+
+1.	IDC：开发人员就业增长率放缓
+
+	[原文地址](http://www.infoworld.com/t/application-development/idc-job-growth-pro-developers-slow-232856?source=footer)  
+	[翻译地址](http://blog.jobbole.com/54682/)
+<!--more-->

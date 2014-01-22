@@ -1,0 +1,8 @@
+---
+layout: post
+title: "wang"
+date: 2014-01-22 09:30:03 +0800
+comments: true
+categories: 
+tags: 
+---
