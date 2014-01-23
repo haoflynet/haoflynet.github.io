@@ -1,0 +1,11 @@
+{% if site.flag_count %}  
+<section>  
+<h1>Visitor</h1>  
+<div>  
+    <p></p>  
+    <center>  
+    <a href="http://info.flagcounter.com/fj3L"><img src="http://s03.flagcounter.com/count/fj3L/bg_FFFFFF/txt_000000/border_CCCCCC/columns_3/maxflags_6/viewers_0/labels_0/pageviews_1/flags_1/" alt="Flag Counter" border="0"></a>
+    </center>  
+</div>  
+</section>  
+{% endif %}  
