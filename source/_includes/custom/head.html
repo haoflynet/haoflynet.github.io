@@ -2,6 +2,7 @@
 <link href="http://fonts.googleapis.com/css?family=PT+Serif:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
 <link href="http://fonts.googleapis.com/css?family=PT+Sans:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
 
+<script type="text/javascript">
 function addBlankTargetForLinks () {
   $('a[href^="http"]').each(function(){
       $(this).attr('target', '_blank');
@@ -10,3 +11,4 @@ function addBlankTargetForLinks () {
 $(document).bind('DOMNodeInserted', function(event) {
   addBlankTargetForLinks();
 });
+</script>
