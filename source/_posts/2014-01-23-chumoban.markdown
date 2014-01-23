@@ -1,0 +1,23 @@
+---
+layout: post
+title: "Linux下笔记本触摸板无法使用问题"
+date: 2014-01-23 20:32:26 +0800
+comments: true
+categories: solutions
+tags: Linux
+---
+
+环境：宏碁E1-471G，ubuntu13.04
+
+很无语，每次装完linux后笔记本的触摸板都是处于无法使用的状态，这里列举了两个方法，需要注意的时候在使用一下两个方法之前你得确认一下是否已经用Fn+F7功能键测试过触摸板是否开启。
+<!--more-->
+方法一：这是我以前在ubuntu12.04上所使用的方法，现在用的是Deepin Linux这个发行版，默认是13.04的，并且[内核版本是3.12.8](https://www.kernel.org/)，如果在ubuntu12.04上只需要执行：
+
+    sudo modprobe -r psmouse
+    sudo modprobe psmouse proto=imps
+这时候触摸板就可以用了，为了下次登陆仍然有效，可以新建文件/etc/modprobe.d/options，在里面填入如下代码：
+
+    options psmouse proto=imps
+重启后仍然可以用
+
+方法二：装了Deepin Linux后发现触摸板怎么也无法使用了，在网上找了很多方法都不可用，最后终于找到一个超简单的方法，那就是直接按Ctrl+Fn+F7三个键
