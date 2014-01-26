@@ -118,3 +118,6 @@ weibo_skin: 10                        #skin
 
 # falg_count
 flag_count: true
+
+# Google Analytics
+google_analytics_tracking_id: UA-47480072-1
