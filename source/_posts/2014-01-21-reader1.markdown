@@ -4,7 +4,7 @@ title: "[读者]我始终相信努力奋斗的意义"
 date: 2014-01-21 22:38:52 +0800
 comments: true
 categories: reader
-tags: reader
+tags: [读者]
 ---
              
 <center>作者：卢思浩</center>
