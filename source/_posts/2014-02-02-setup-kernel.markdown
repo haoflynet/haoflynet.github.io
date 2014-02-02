@@ -57,3 +57,5 @@ ubuntu内核DEB包[下载地址](http://kernel.ubuntu.com/~kernel-ppa/mainline/)
     sudo make modules_install    安装内核模块
     sudo make install            安装内核
     sudo reboot                  重启以验证内核
+
+
