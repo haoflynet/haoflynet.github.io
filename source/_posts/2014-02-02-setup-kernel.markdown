@@ -44,9 +44,9 @@ ubuntu内核DEB包[下载地址](http://kernel.ubuntu.com/~kernel-ppa/mainline/)
 然后在该目录内执行`make menuconfig	`
 在图形化界面配置各个选项
 
-详细的内核配置说明见：[Linux kernel配置详细说明](http://haofly.net/blog/2014/02/02/linux-kernel/)
+详细的内核配置说明见：[Linux内核配置详细说明](http://haofly.net/blog/2014/02/02/linux-kernel/)
 
-当然，我这里列举了通常需要修改的项目：[Linux kernel个性化配置](http://haofly.net/blog/2014/02/02/kernel-mainmenu/)
+当然，我这里列举了通常需要修改的项目：[Linux内核个性化配置](http://haofly.net/blog/2014/02/02/kernel-mainmenu/)
 
 配置好后，在终端执行(注：下面的命令参数中-x表示设置的线程数，设置多线程可加快编译时间，比如我是双核处理器那就选4线程，x为4)：
 
