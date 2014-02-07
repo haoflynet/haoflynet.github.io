@@ -19,7 +19,7 @@ tags: [linux, password]
     int minlen = 1;		// 密码的最小长度
     int maxlen = 10;	// 密码的最大长度
     // 这是通过/etc/shadow所获取的加密后的文本
-    char *encrypted = "$6$jMzjGK//$0QVw8FM87jd3yF0wvzgXPPe1l3FOfrIA7LhGPIVCbum9es5/tQsGMJqmaQ78IY.Hv4h6 UWnvTs4cLntrPMSfM/";
+    char *encrypted = "$6$jMzjGK//$0QVw8FM87jd3yF0wvzgXPPe1l3FOfrIA7LhGPIVCbum9es5/tQsGMJqmaQ78IY.Hv4h6UWnvTs4cLntrPMSfM/";
     char *salt = "$6$jMzjGK//$";	// 由上面的文本所得到的值，crypt函数的第二个参数
 
 
