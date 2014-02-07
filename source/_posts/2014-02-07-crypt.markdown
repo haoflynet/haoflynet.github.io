@@ -1,0 +1,45 @@
+---
+layout: post
+title: "C语言生成linux加密密文"
+date: 2014-02-07 14:07:56 +0800
+comments: true
+categories: [linux]
+tags: [linux, password]
+---
+使用[crypt函数](http://man7.org/linux/man-pages/man3/crypt.3.html)，该函数在linux系统用于加密文本
+
+原型：`char *crypt(const char *key, const char *salt)`
+
+在glibc2版本之后，该函数支持用不同的算法来生成加密文本，salt的格式为`$id$salt$`，根据ID的不同采用不同的算法：
+<!--more-->
+    _______________________________
+    ID  |   Method
+    1   |   MD5 （产生22个字符）
+    2a  |   Blowfish (not in mainline glibc; added in some Linux distributions)
+    5   |   SHA-256 (since glibc 2.7)（产生43个字符）
+    6   |   SHA-512 (since glibc 2.7)（产生86个字符）
+    ________________________________
+早期的linux密码被加密后存放在/etc/passwd文件中，每一条有7个域，如：root:x:0:0:root:/root:/bin/bash分别对应着 用户名：密码：用户id：组id：用户信息：主目录：shell
+
+正如你所见，密码都是x，这是因为linux现在为了安全起见，把加密密码都存放在/etc/shadow这个影子文件中，并且只有root可读，这就提高了安全性，该文件每一条有8个域
+hao:$6$e.L16Mhc$gZx6P8/7MvkG0dT4B......fNJg0:16089:0:99999:7:::(中间用省略号代替)  分别对应着 用户名：加密密码：上一次修改时间(从1970年1月1日至今的天数)：两次修改之间的最小天数：密码修改前向用户发出警告的天数：密码过期后账号被禁用的天数：账号被禁用的天数（从1970年1月1日至今的天数）：保留域
+
+可以发现最重要的就是加密后的密文$6$e.L16Mhc$gZx6P8/7MvkG0dT4....E4AakQxW4fNJg0(中间用省略号代替)，它就是由crypt函数所生成的，其前面几个字符`$6$e.L16Mhc$gZx6P8`就是salt的值，key即是键入的密码
+
+
+源程序如下：
+
+    #define _GNU_SOURCE
+    #include <stdio.h>
+    #include <unistd.h>
+    
+    int main(void)
+    {
+        char *key = "896499825";
+        char *salt = "$6$e.L16Mhc$";
+        printf("%s\n", crypt(key, salt);
+        return 0;
+    }
+注：不要用命令行来输入参数，因为salt的值`$6`会被解释成其他含义(null)
+
+既然知道了加密方法，那么[暴力破解Linux密码](http://haofly.net/blog/2014/02/07/encrypt/)的方法也就知道了
