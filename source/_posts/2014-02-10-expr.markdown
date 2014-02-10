@@ -1,0 +1,33 @@
+---
+layout: post
+title: "expr 命令详解"
+date: 2014-02-10 19:42:07 +0800
+comments: true
+categories: [linux]
+tags: [linux, command]
+---
+###全称：
+evaluate expressions
+
+###作用：
+主要用于四则运算，将表达式的运算结果输出到标准输出
+<!--more-->
+###使用方法：
+
+数值运算：可以进行 |、&、<、<=、=、!=、>=、>、+、-、*、/、%等运算
+
+比如：expr 变量1 + 变量2
+
+同样可以计算两数字字符串变量的值，如：expr $value1 - $value2
+
+其他用法：
+
+`STRING : REGEXP(正则表达式)`anchored(匹配) pattern match of REGEXP in STRING
+
+`match STRING REGEXP`     用法同上
+
+`substr SYRING POS LENGTH`    substring of STRING, POS counted from 1，寻找子字符串出现的次数
+
+`index STRING CHARS` index in STRING where any CHARS is found, or 0，寻找字符出现的位置
+
+`length STRING`       字符串长度
