@@ -27,10 +27,16 @@ tags: [linux]
     okok-stop       # 断开网络
     
 如此，便可以连接外网了，如果要连接内网，可以进行如下配置：
+
 点击网络设置，如下图：
-![../images](logo.jpg)
+
+![cao](images/logo.jpg)
+
 如果没有该网络管理软件，可执行`sudo apt-get install network-manager-network`安装
+
 然后点击以太网里面的一个选择编辑，出现如下对话框：
-[]()
+
+![cao](../images/logo.jpg)
+
 然后选择
 
