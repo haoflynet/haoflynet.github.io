@@ -6,7 +6,7 @@ comments: true
 categories: [linux, solution]
 tags: [linux]
 ---
-首先下载大神们做好的软件包：[点此下载]()（其实这里面也有安装说明的）
+首先下载大神们做好的软件包：[点此下载](http://download.csdn.net/detail/haoxiangtianxia/6982631)（其实这里面也有安装说明的）
 
 然后执行以下命令：
 
@@ -26,17 +26,19 @@ tags: [linux]
     okok            # 这一点与README里介绍的不同，我想是因为这个东西是后人对前人改进了的，以前的版本会每十分钟断一次的
     okok-stop       # 断开网络
     
-如此，便可以连接外网了，如果要连接内网，可以进行如下配置：
+如此，便可以连接外网了。以后开机只需要输入`sudo okok`即可。
+
+如果要连接内网，还要进行如下配置：
 
 点击网络设置，如下图：
 
-![cao](/images/logo.jpg)
+![cao](/images/openkeeper1.png)
 
 如果没有该网络管理软件，可执行`sudo apt-get install network-manager-network`安装
 
-然后点击以太网里面的一个选择编辑，出现如下对话框：
+然后点击以太网里面的一个选项编辑，出现如下对话框：
 
-![cao](../images/logo.jpg)
+![cao](/images/openkeeper2.png)
 
-然后选择
+然后选择”821.X安全性“选项卡，这里输入内网的用户名和密码，然后就可以进入内网了
 
