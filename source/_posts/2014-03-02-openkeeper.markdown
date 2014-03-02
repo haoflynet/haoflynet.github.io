@@ -30,7 +30,7 @@ tags: [linux]
 
 点击网络设置，如下图：
 
-![cao](images/logo.jpg)
+![cao](/images/logo.jpg)
 
 如果没有该网络管理软件，可执行`sudo apt-get install network-manager-network`安装
 
