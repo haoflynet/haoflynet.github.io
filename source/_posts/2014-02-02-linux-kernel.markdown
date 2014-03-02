@@ -263,7 +263,7 @@ tags: [linux, kernel]
         |--[*]    EFI stub support
         |--[*]  Enable seccomp to safely compute untrusted bytecode //只有嵌入式系统可以不选
         |--[*]  Enable -fstack-protector buffer overflow detection
-        |--     Timer frequency (250 HZ)    --->    内核时钟频率，桌面1000 服务器 100或250
+        |--     Timer frequency (250 HZ)    --->    内核时钟频率，桌面用户1000Hz),服务器100或250
         |--[*]  kexec system call   kexec系统调用。kexec是一个用来关闭你当前内核，然后开启另一个内核的系统调用。它和重启很像，但是它不访问系统固件。由于和重启很像，你可以启动任何内核，不仅仅是LINUX。kexec这个名字是从exec系统调用来的。它只是一个进程，可以确定硬件是否正确关闭。
         |--[*]  kernel crash dumps	内核崩溃时，dump运行时信息
         |--[*]  kexec jump
