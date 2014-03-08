@@ -3,8 +3,8 @@ layout: post
 title: "大二下学期计划(回顾2013展望2014)"
 date: 2014-03-08 15:17:33 +0800
 comments: true
-categories: 
-tags: 
+categories: thoughts
+tags: plan
 ---
 
 ##回顾2013

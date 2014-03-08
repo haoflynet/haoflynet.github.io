@@ -3,8 +3,8 @@ layout: post
 title: "Linux内核个性化配置"
 date: 2014-02-02 11:21:03 +0800
 comments: true
-categories: [Kernel,linux]
-tags: [Kernel]
+categories: [linux]
+tags: [Kernel,linux]
 ---
 
 这次更新内核的时候忘了先用3.13.1来进行通用配置安装，所以只能和3.13.0比较，分别是5.6MB和5.8MB，只减少了200kb左右，其实作为个人桌面用户，这一些修改都还太少，主要原因是我很多功能并不知道有什么用(而且貌似有几个选项没有选，下次吧，编译内核太费CPU太费时间太费电了)，而且我对自己的电脑硬件也不甚了解，希望以后能逐步完善精简内核的选项：

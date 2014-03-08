@@ -3,7 +3,7 @@ layout: post
 title: "Linux 内核的安装"
 date: 2014-02-02 11:14:16 +0800
 comments: true
-categories: [Kernel]
+categories: [linux]
 tags: [linux,kernel]
 ---
 系统环境：64位ubuntu

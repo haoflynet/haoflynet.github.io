@@ -3,7 +3,7 @@ layout: post
 title: "linux kernel配置详细说明"
 date: 2014-02-02 11:10:30 +0800
 comments: true
-categories: [Kernel]
+categories: [linux]
 tags: [linux, kernel]
 ---
 从去年写到今年，解释这些菜单真的太费时了，而且没有研究过markdown的排版技术，所以太混乱了。这个说明我在以后还会逐渐完善的！

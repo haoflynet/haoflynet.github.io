@@ -3,7 +3,7 @@ layout: post
 title: "重邮等高校在linux下使用openkeeper代替netkeeper连接网络"
 date: 2014-03-02 15:27:27 +0800
 comments: true
-categories: [linux, solution]
+categories: [linux, solutions]
 tags: [linux]
 ---
 首先下载大神们做好的软件包：[点此下载](http://download.csdn.net/detail/haoxiangtianxia/6982631)（其实这里面也有安装说明的）
