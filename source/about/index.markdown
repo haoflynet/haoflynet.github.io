@@ -19,7 +19,7 @@ footer: true
 
 新浪微博：[@豪翔天下](http://weibo.com/haoflynet)
 
-Twitter：@haofly
+Twitter：[@haofly](https://twitter.com/haofly)
 
 Email：haoflynet@gmail.com
 <td></td>
