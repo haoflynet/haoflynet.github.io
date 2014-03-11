@@ -1,0 +1,12 @@
+---
+layout: post
+title: "Uva_ACM刷题榜"
+date: 2014-03-11 23:46:09 +0800
+comments: true
+categories: acm
+tags: acm
+---
+
+###[uva ACM](http://http://uva.onlinejudge.org/)(美国弗吉尼亚大学的Online Judge)
+[10714 Ants](http://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&page=show_problem&problem=1655) 蚂蚁相撞等于对穿而过
+<!--more-->
