@@ -1,0 +1,20 @@
+---
+layout: post
+title: "杭电ACM刷题榜"
+date: 2014-03-21 23:25:19 +0800
+comments: true
+categories: acm
+tags: acm
+---
+
+###[杭电ACM](http://acm.hdu.edu.cn/)(国内ACM界很有权威的网站，互联网很多编程比赛都是通过它举办的)
+我也挺喜欢这个网站的，不过它的讨论模块我一直没搞懂到底是怎么使用的，其实在这个网站还是做过很多道题的，不过都是在ACM Step里提交的，它并没有在个人的统计信息里显示，所以我也没有去找了，以后有机会肯定会再碰到的
+<!--more-->
+[1000 A+B Problem](http://acm.hdu.edu.cn/showproblem.php?pid=1000) 水题  
+[1002 A+B Problem2](http://acm.hdu.edu.cn/showproblem.php?pid=1002) 水题，大数加法  
+[1234 开门人和关门人](http://acm.hdu.edu.cn/showproblem.php?pid=1234) 水题  
+[1722 Cake](http://acm.hdu.edu.cn/showproblem.php?pid=1722) 当作一个圆来切一下	[结题报告](http://hi.baidu.com/faithyzy/item/00b1e8e85a73520965db00e8)  
+[2050 折线分割平面](http://acm.hdu.edu.cn/showproblem.php?pid=2050) 要画图找规律  
+[2674 N！Again](http://acm.hdu.edu.cn/showproblem.php?pid=2674) 先输出几十个数就会发现规律打表都行，或者用大数阶乘模板  
+[4716 A Computer Graphics Problem](http://acm.hdu.edu.cn/showproblem.php?pid=4716)水题
+
