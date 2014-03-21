@@ -1,0 +1,106 @@
+---
+layout: post
+title: "重邮ACM刷题榜"
+date: 2014-03-21 23:12:58 +0800
+comments: true
+categories: acm
+tags: acm
+---
+
+###[重邮ACM](acm.cqupt.edu.cn/)(重庆邮电大学自己的ACM网站)
+这是我们重邮人自己的ACM网站，由于我们学校对acm不够重视，所以本网站有很多的初级题目来供初学者练习，当然其中也不乏经典的题目，希望我们的网站能越办越好
+<!--more-->
+[1000 A+B Problem](http://acm.cqupt.edu.cn/problem.php?id=1000) 水题  
+[1001 C语言程序设计教程（第三版）课后习题1.5](http://acm.cqupt.edu.cn/problem.php?id=1001) 水题  
+[1002 C语言程序设计教程（第三版）课后习题1.6](http://acm.cqupt.edu.cn/problem.php?id=1002) 水题  
+[1003 C语言程序设计教程（第三版）课后习题3.7](http://acm.cqupt.edu.cn/problem.php?id=1003) 水题  
+[1004 C语言程序设计教程（第三版）课后习题4.8](http://acm.cqupt.edu.cn/problem.php?id=1004) 水题  
+[1005 C语言程序设计教程（第三版）课后习题4.9](http://acm.cqupt.edu.cn/problem.php?id=1005) 水题  
+[1006 C语言程序设计教程（第三版）课后习题5.4](http://acm.cqupt.edu.cn/problem.php?id=1006) 水题  
+[1007 C语言程序设计教程（第三版）课后习题5.5](http://acm.cqupt.edu.cn/problem.php?id=1007) 水题  
+[1008 C语言程序设计教程（第三版）课后习题5.6](http://acm.cqupt.edu.cn/problem.php?id=1008) 水题  
+[1009 C语言程序设计教程（第三版）课后习题5.7](http://acm.cqupt.edu.cn/problem.php?id=1009) 水题  
+[1010 C语言程序设计教程（第三版）课后习题5.8](http://acm.cqupt.edu.cn/problem.php?id=1010) 水题  
+[1011 C语言程序设计教程（第三版）课后习题6.1](http://acm.cqupt.edu.cn/problem.php?id=1011) 水题  
+[1012 C语言程序设计教程（第三版）课后习题6.2](http://acm.cqupt.edu.cn/problem.php?id=1012) 水题  
+[1013 C语言程序设计教程（第三版）课后习题6.3](http://acm.cqupt.edu.cn/problem.php?id=1013) 水题  
+[1014 C语言程序设计教程（第三版）课后习题6.4](http://acm.cqupt.edu.cn/problem.php?id=1014) 水题  
+[1015 C语言程序设计教程（第三版）课后习题6.5](http://acm.cqupt.edu.cn/problem.php?id=1015) 水题  
+[1016 C语言程序设计教程（第三版）课后习题6.6](http://acm.cqupt.edu.cn/problem.php?id=1016) 水题  
+[1017 C语言程序设计教程（第三版）课后习题6.7](http://acm.cqupt.edu.cn/problem.php?id=1017) 水题  
+[1018 C语言程序设计教程（第三版）课后习题6.8](http://acm.cqupt.edu.cn/problem.php?id=1018) 水题  
+[1019 C语言程序设计教程（第三版）课后习题6.9](http://acm.cqupt.edu.cn/problem.php?id=1019) 水题  
+[1020 C语言程序设计教程（第三版）课后习题6.10](http://acm.cqupt.edu.cn/problem.php?id=1020) 水题  
+[1021 C语言程序设计教程（第三版）课后习题6.11](http://acm.cqupt.edu.cn/problem.php?id=1021) 水题  
+[1022 C语言程序设计教程（第三版）课后习题7.1](http://acm.cqupt.edu.cn/problem.php?id=1022) 水题  
+[1023 C语言程序设计教程（第三版）课后习题7.2](http://acm.cqupt.edu.cn/problem.php?id=1023) 水题  
+[1024 C语言程序设计教程（第三版）课后习题7.3](http://acm.cqupt.edu.cn/problem.php?id=1024) 水题  
+[1025 C语言程序设计教程（第三版）课后习题7.4](http://acm.cqupt.edu.cn/problem.php?id=1025) 水题  
+[1026 C语言程序设计教程（第三版）课后习题7.5](http://acm.cqupt.edu.cn/problem.php?id=1026) 水题  
+[1027 C语言程序设计教程（第三版）课后习题8.1](http://acm.cqupt.edu.cn/problem.php?id=1027) 水题  
+[1028 C语言程序设计教程（第三版）课后习题8.2](http://acm.cqupt.edu.cn/problem.php?id=1028) 水题  
+[1029 C语言程序设计教程（第三版）课后习题8.3](http://acm.cqupt.edu.cn/problem.php?id=1029) 水题  
+[1030 C语言程序设计教程（第三版）课后习题8.4](http://acm.cqupt.edu.cn/problem.php?id=1030) 水题  
+[1031 C语言程序设计教程（第三版）课后习题8.5](http://acm.cqupt.edu.cn/problem.php?id=1031) 水题  
+[1032 C语言程序设计教程（第三版）课后习题8.6](http://acm.cqupt.edu.cn/problem.php?id=1032) 水题  
+[1033 C语言程序设计教程（第三版）课后习题8.7](http://acm.cqupt.edu.cn/problem.php?id=1033) 水题  
+[1034 C语言程序设计教程（第三版）课后习题8.8](http://acm.cqupt.edu.cn/problem.php?id=1034) 水题  
+[1035 C语言程序设计教程（第三版）课后习题8.9](http://acm.cqupt.edu.cn/problem.php?id=1035) 水题  
+[1036 C语言程序设计教程（第三版）课后习题9.1](http://acm.cqupt.edu.cn/problem.php?id=1036) 水题  
+[1037 C语言程序设计教程（第三版）课后习题9.2](http://acm.cqupt.edu.cn/problem.php?id=1037) 水题  
+[1038 C语言程序设计教程（第三版）课后习题9.3](http://acm.cqupt.edu.cn/problem.php?id=1038) 水题  
+[1039 C语言程序设计教程（第三版）课后习题9.4](http://acm.cqupt.edu.cn/problem.php?id=1039) 水题  
+[1040 C语言程序设计教程（第三版）课后习题9.6](http://acm.cqupt.edu.cn/problem.php?id=1040) 水题  
+[1041 C语言程序设计教程（第三版）课后习题9.8](http://acm.cqupt.edu.cn/problem.php?id=1041) 水题  
+[1042 C语言程序设计教程（第三版）课后习题9.10](http://acm.cqupt.edu.cn/problem.php?id=1042) 水题  
+[1043 C语言程序设计教程（第三版）课后习题10.1](http://acm.cqupt.edu.cn/problem.php?id=1043) 水题  
+[1044 C语言程序设计教程（第三版）课后习题10.2](http://acm.cqupt.edu.cn/problem.php?id=1044) 水题  
+[1045 C语言程序设计教程（第三版）课后习题10.3](http://acm.cqupt.edu.cn/problem.php?id=1045) 水题  
+[1046 C语言程序设计教程（第三版）课后习题10.4](http://acm.cqupt.edu.cn/problem.php?id=1046) 水题  
+[1047 C语言程序设计教程（第三版）课后习题10.5](http://acm.cqupt.edu.cn/problem.php?id=1047) 水题  
+[1048 C语言程序设计教程（第三版）课后习题10.7](http://acm.cqupt.edu.cn/problem.php?id=1048) 水题  
+[1049 C语言程序设计教程（第三版）课后习题11.1](http://acm.cqupt.edu.cn/problem.php?id=1049) 水题  
+[1050 C语言程序设计教程（第三版）课后习题11.3](http://acm.cqupt.edu.cn/problem.php?id=1050) 水题  
+[1051 C语言程序设计教程（第三版）课后习题11.5](http://acm.cqupt.edu.cn/problem.php?id=1051) 水题  
+[1052 C语言程序设计教程（第三版）课后习题11.8](http://acm.cqupt.edu.cn/problem.php?id=1052) 水题  
+[1053 解算式](http://acm.cqupt.edu.cn/problem.php?id=1053) 水题  
+[1054 方阵填数](http://acm.cqupt.edu.cn/problem.php?id=1054) 水题  
+[1055 两类二进制数](http://acm.cqupt.edu.cn/problem.php?id=1055) 水题  
+[1056 编码问题（1）](http://acm.cqupt.edu.cn/problem.php?id=1056) 水题  
+[1057 编码问题（2）](http://acm.cqupt.edu.cn/problem.php?id=1057) 水题  
+[1058 矩阵A+B](http://acm.cqupt.edu.cn/problem.php?id=1058) 水题  
+[1059 aabb](http://acm.cqupt.edu.cn/problem.php?id=1059) 水题  
+[1060 3n+1问题](http://acm.cqupt.edu.cn/problem.php?id=1060) 水题  
+[1061 韩信点兵](http://acm.cqupt.edu.cn/problem.php?id=1061) 水题  
+[1062 开灯问题](http://acm.cqupt.edu.cn/problem.php?id=1062) 水题  
+[1063 最长回文子串](http://acm.cqupt.edu.cn/problem.php?id=1063) 水题，不过比较经典  
+[1064 大数A+B](http://acm.cqupt.edu.cn/problem.php?id=1064) 水题  
+[1065 不高兴的津津](http://acm.cqupt.edu.cn/problem.php?id=1065) 水题  
+[1066 花生采摘](http://acm.cqupt.edu.cn/problem.php?id=1066) 水题，模拟  
+[1068 火星人](http://acm.cqupt.edu.cn/problem.php?id=1068) 水题  
+[1069 孪生素数](http://acm.cqupt.edu.cn/problem.php?id=1069) 水题   
+
+[1101 数字的游戏](http://acm.cqupt.edu.cn/problem.php?id=1101) 水题，约瑟夫环，很经典的题  
+[1102 翻译](http://acm.cqupt.edu.cn/problem.php?id=1102) 使用贪心的策略  
+[1103 自然数的计算](http://acm.cqupt.edu.cn/problem.php?id=1103) 水题  
+[1104 自动纠正拼写错误](http://acm.cqupt.edu.cn/problem.php?id=1104) 水题  
+[1187 斐波那契数列](http://acm.cqupt.edu.cn/problem.php?id=1187) 水题，斐波那契数列  
+[1188 谁捐的钱多？](http://acm.cqupt.edu.cn/problem.php?id=1188) 水题  
+[1189 字母括号](http://acm.cqupt.edu.cn/problem.php?id=1189) 水题  
+[1190 你怎么知道谁是第一？](http://acm.cqupt.edu.cn/problem.php?id=1190) 水题  
+[1191 谁的名字在里面？](http://acm.cqupt.edu.cn/problem.php?id=1191) 水题  
+[1192 小学数学题](http://acm.cqupt.edu.cn/problem.php?id=1192) 水题  
+
+[1391 操作系统](http://acm.cqupt.edu.cn/problem.php?id=1391) 这道题挺难的，当时用了多个数组来模拟时间轴  
+[1398 黑色星期五](http://acm.cqupt.edu.cn/problem.php?id=1398) 水题
+
+[1495 A+B for Input-Output Practice (I)](http://acm.cqupt.edu.cn/problem.php?id=1495) 水题  
+[1496 A+B for Input-Output Practice (II)](http://acm.cqupt.edu.cn/problem.php?id=1496) 水题  
+[1497 A+B for Input-Output Practice (III)](http://acm.cqupt.edu.cn/problem.php?id=1497) 水题  
+[1498 A+B for Input-Output Practice (IV)](http://acm.cqupt.edu.cn/problem.php?id=1498) 水题  
+[1499 A+B for Input-Output Practice (V)](http://acm.cqupt.edu.cn/problem.php?id=1499) 水题  
+[1500 A+B for Input-Output Practice (VI)](http://acm.cqupt.edu.cn/problem.php?id=1500) 水题  
+[1501 A+B for Input-Output Practice (VII)](http://acm.cqupt.edu.cn/problem.php?id=1501) 水题  
+[1502 A+B for Input-Output Practice (VIII)](http://acm.cqupt.edu.cn/problem.php?id=1502) 水题  
+[1567 鸡兔同笼问题](http://acm.cqupt.edu.cn/problem.php?id=1567) 水题  
+
