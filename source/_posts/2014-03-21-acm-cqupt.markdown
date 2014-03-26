@@ -7,7 +7,7 @@ categories: acm
 tags: acm
 ---
 
-###[重邮ACM](acm.cqupt.edu.cn/)(重庆邮电大学自己的ACM网站)
+###[重邮ACM](http://acm.cqupt.edu.cn/)(重庆邮电大学自己的ACM网站)
 这是我们重邮人自己的ACM网站，由于我们学校对acm不够重视，所以本网站有很多的初级题目来供初学者练习，当然其中也不乏经典的题目，希望我们的网站能越办越好
 <!--more-->
 [1000 A+B Problem](http://acm.cqupt.edu.cn/problem.php?id=1000) 水题  
