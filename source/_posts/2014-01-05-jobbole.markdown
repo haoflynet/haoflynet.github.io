@@ -13,3 +13,24 @@ tags: [翻译]
 	[原文地址](http://www.infoworld.com/t/application-development/idc-job-growth-pro-developers-slow-232856?source=footer)  
 	[翻译地址](http://blog.jobbole.com/54682/)
 <!--more-->
+
+2. 成为Linux内核高手的四个方法
+
+    [原文地址](http://jvns.ca/blog/2014/01/04/4-paths-to-being-a-kernel-hacker/)  
+    [翻译地址](http://blog.jobbole.com/54833/)
+
+3.  Aaron Swartz自杀一周年，匿名黑客组织攻击MIT网站
+
+    [原文地址](http://www.zdnet.com/mit-website-hacked-by-anonymous-on-anniversary-of-aaron-swartz-suicide-7000025041/)  
+    [翻译地址](http://blog.jobbole.com/55364/)
+    
+4.  拒绝过度舒适
+
+    [原文地址](http://karankurani.com/dont-get-too-comfortable)  
+    [翻译地址](http://blog.jobbole.com/54778/)
+
+5.  2014，成为更好程序员的7个方法
+
+    [原文地址](http://programming.oreilly.com/2014/01/7-ways-to-be-a-better-programmer-in-2014.html)  
+    [翻译地址](http://blog.jobbole.com/62142/)
+

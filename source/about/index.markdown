@@ -15,6 +15,10 @@ footer: true
 ##一个人敲代码 一个人看电影
 ##一个人 等待着另一个人
 &nbsp;
+
+###技能树
+![技能树](/images/skill_tree.jpg)
+
 ###Contact me
 
 新浪微博：[@豪翔天下](http://weibo.com/haoflynet)
@@ -22,8 +26,9 @@ footer: true
 Twitter：[@haofly](https://twitter.com/haofly)
 
 Email：haoflynet@gmail.com
-<td></td>
+
 ###History
+
 2013年8月      申请域名
 
 2013年12月         托管到github
