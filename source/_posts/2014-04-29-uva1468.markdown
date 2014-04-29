@@ -1,0 +1,106 @@
+---
+layout: post
+title: "uva1468 Restaurant"
+date: 2014-04-29 20:33:06 +0800
+comments: true
+categories: acm
+tags: acm
+---
+最近太忙了，这道题一拖再拖，其实前面几天已经搞懂了，只是今天才有空贴出来。  
+题目链接：    [http://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&page=show_problem&problem=4214](http://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&page=show_problem&problem=4214)  
+参考链接：  
+[http://blog.csdn.net/keshuai19940722/article/details/23188823](http://blog.csdn.net/keshuai19940722/article/details/23188823)
+[http://blog.csdn.net/accelerator_/article/details/22892213](http://blog.csdn.net/accelerator_/article/details/22892213)  
+其实这道题最难的不是算法的设计，而是对题意的理解，而且这道题网上的结题报告比较少，貌似只有两个版本，而且有些作者是直接照搬的，自己根本就不会做。感谢上面两篇文章的作者给我的讲解。在这里把我对本题的理解记下。
+<!--more-->
+题目大意在上面两篇博文中已经有了简介，在这里把我当时理解错了的地方说明一下。  
+就拿题目给出的样例举例：  
+11 11  
+0 5  
+10 5  
+4 9  
+2 8  
+7 8  
+5 6  
+3 5  
+5 3  
+3 2  
+7 2  
+9 1  
+题目有如下要求：  
+1、比公寓A更接近公寓B，比公寓B更接近公寓A，题目中是说新餐馆要在AB之间。  
+2、新餐馆要比其他餐馆要么更接近A，要么更接近B  
+符合要求的坐标应该为(1,5)(2,5)(4,5)(5,5)(6,4),(6,5),(6,6)(7,3),(7,4),(7,5),(7,6),(7,7)(8,4),(8,5),(8,6)(9,5)，如下图，满足要求的点就是图中红色的点  
+![uva1468](/source/images/uva1468)  
+所谓的维护每个横坐标的最小值其实是指每个横坐标所对应的符合要求的纵坐标的上下界，对于给出的已知的每一个餐馆，其本身坐标以及其左上或右上(左下或右下)的点均不会满足要求。其他的说明见代码注释：
+
+    #include <cstdio>
+	#include <cstring>
+	#include <cstdlib>
+	#include <algorithm>
+	using namespace std;
+
+	const int N = 1e4+5;
+	const int INF = 0x3f3f3f3f;
+	typedef long long ll;
+
+	int m, n, yMax[N*6], yMin[N*6];
+	int ax, ay, bx, by, py[N*6];
+
+	void init () {
+		scanf("%d%d", &m, &n);
+		scanf("%d%d%d%d", &ax, &ay, &bx, &by);
+
+		if (ax > bx) swap (ax, bx);
+
+		for (int i = ax+1; i < bx; i++) {
+			yMax[i] = -INF;
+			yMin[i] = INF;
+		}
+
+		int x, y;
+		for (int i = 2; i < n; i++) {
+			scanf("%d%d", &x, &y);
+
+			// 这里是确定每一个输入的坐标所对应的那一列最接近AB公寓那一y坐标的yMin和yMax值分别对应线上部和线的下部
+			if (y >= ay) yMin[x] = min (y, yMin[x]);
+			if (y <= ay) yMax[x] = max (y, yMax[x]);
+		}
+	}
+
+	int main () {
+		int cas;
+		scanf("%d", &cas);
+		while (cas--) {
+			init ();
+
+			// 这一次遍历是确定AB之间的每一个很坐标对应的纵坐标的上面和下面两部分最接近中间横线的距离
+			for (int i = ax + 1; i < bx; i++)
+				py[i] = min (yMin[i] - ay, ay - yMax[i]);
+
+			py[ax] = py[bx] = 0;
+			// init()里输入循环和上面这一个循环最终结果是只保留了每一个横坐标距离ay的最近距离(上下对称，下面就只针对上面来排除多余的点，确定各个相邻坐标之间的限制)
+			// 这一次遍历可以排除每一个横坐标的左上角
+			for (int i = ax + 1; i < bx; i++)
+				py[i] = min (py[i], py[i-1] + 1);
+			// 这一次遍历可以排除每一个横坐标的右上角
+			for (int i = bx - 1; i > ax; i--)
+				py[i] = min (py[i], py[i+1] + 1);
+
+			ll ans = 0;
+			// 最后对所有满足要求的点进行统计
+			for (int i = ax + 1; i < bx; i++) {
+				// 当然要排除横坐标上有点的横坐标
+				if (py[i]) {
+					// 如果横坐标上没有参观那么至少都得有一个(即横坐标上那一个)
+					ans++;
+
+					// 这里之所以不用ans += (py[i] - 1) * 2是因为ay不一定刚好就是中间的那一条线，必须要有边界检查
+					ans += min (py[i] - 1, m - ay - 1);	// 上面
+					ans += min (py[i] - 1, ay);			// 下面
+				}
+			}
+			printf("%lld\n", ans);
+		}
+		return 0;
+	}
