@@ -11,4 +11,5 @@ tags: acm
 据说该网站的题目都比较严格，唯一的缺点是打开缓慢，有时候根本就打不开，翻墙都不行  
 [10714 Ants](http://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&page=show_problem&problem=1655) 蚂蚁相撞等于对穿而过  
 <!--more-->
-[10041 Vito's Family](http://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&page=show_problem&problem=982) 求中位数
+[10041 Vito's Family](http://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&page=show_problem&problem=982) 求中位数  
+[1468 Restaurant](http://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&page=show_problem&problem=4214) 动态规划，主要还是要理解题意 [解题报告](http://haofly.net/blog/2014/04/29/uva1468/)

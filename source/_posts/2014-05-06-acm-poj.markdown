@@ -1,0 +1,18 @@
+---
+layout: post
+title: "acm_poj"
+date: 2014-05-06 18:03:23 +0800
+comments: true
+categories: acm
+tags: acm
+---
+
+###[北大ACM](http://poj.org/)(速度很不错的)
+挺喜欢这个网站，不过貌似很久没有在这上面做题了。
+
+[1000 A+B Problem](http://poj.org/problem?id=1000) 水题  
+[1001 Exponentiation](http://poj.org/problem?id=1001) 求浮点数的次方，注意小数点的处理  
+[1006 Biorhythms](http://poj.org/problem?id=1006) 相当于模拟题
+<!--more-->
+[1463 Strategic game](http://poj.org/problem?id=1463) DP问题，主要要学到这里临界表的用法
+

@@ -13,7 +13,7 @@ tags: acm
 [1000 A+B Problem](http://acm.hdu.edu.cn/showproblem.php?pid=1000) 水题  
 [1002 A+B Problem2](http://acm.hdu.edu.cn/showproblem.php?pid=1002) 水题，大数加法  
 [1234 开门人和关门人](http://acm.hdu.edu.cn/showproblem.php?pid=1234) 水题  
-[1722 Cake](http://acm.hdu.edu.cn/showproblem.php?pid=1722) 当作一个圆来切一下	[结题报告](http://hi.baidu.com/faithyzy/item/00b1e8e85a73520965db00e8)  
+[1722 Cake](http://acm.hdu.edu.cn/showproblem.php?pid=1722) 当作一个圆来切一下	[解题报告](http://hi.baidu.com/faithyzy/item/00b1e8e85a73520965db00e8)  
 [2050 折线分割平面](http://acm.hdu.edu.cn/showproblem.php?pid=2050) 要画图找规律  
 [2674 N！Again](http://acm.hdu.edu.cn/showproblem.php?pid=2674) 先输出几十个数就会发现规律打表都行，或者用大数阶乘模板  
 [4276 The Ghost Blows Light](http://acm.hdu.edu.cn/showproblem.php?pid=4276) 非常复杂的一道题，运用了图的搜索和动态规划(背包)的思想[解题报告](http://haofly.net/blog/2014/03/26/hdu4267/)
