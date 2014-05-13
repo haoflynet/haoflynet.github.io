@@ -3,9 +3,11 @@ layout: post
 title: "《谁的青春不迷茫》读后感"
 date: 2014-04-13 15:09:01 +0800
 comments: true
-categories: 
-tags: 
+categories: reader
+tags: reader
 ---
+
+[《谁的青春不迷茫》——刘同](http://www.amazon.cn/%E8%B0%81%E7%9A%84%E9%9D%92%E6%98%A5%E4%B8%8D%E8%BF%B7%E8%8C%AB-%E5%88%98%E5%90%8C/dp/B00A67K0A2/ref=sr_1_1?ie=UTF8&qid=1399975828&sr=8-1&keywords=%E8%B0%81%E7%9A%84%E9%9D%92%E6%98%A5%E4%B8%8D%E8%BF%B7%E8%8C%AB)
 
 刘同这个人无疑是一个成功的人，他是一个隐士，是一个大隐隐于朝的隐士.是啊，谁的青春都有迷茫的时候，就像我现在一样.在这个时候我们要做得首先是要认识自己。按照书中的提示，我做了如下反思：
 <!--more-->
