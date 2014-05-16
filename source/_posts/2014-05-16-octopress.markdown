@@ -3,8 +3,8 @@ layout: post
 title: "新电脑上部署octopress博客"
 date: 2014-05-16 19:43:54 +0800
 comments: true
-categories: [solutions, octopress]
-tags: octopress
+categories: [octopress, config]
+tags: [config]
 ---
 由于不想给云端笔记(wiznote)增加压力，所以还是直接写成博客文章为好。不过需要注意的是本文章只是针对曾经搭建过的仓库。
 

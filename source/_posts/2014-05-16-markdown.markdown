@@ -1,0 +1,25 @@
+---
+layout: post
+title: "markdown特殊语法"
+date: 2014-05-16 20:02:14 +0800
+comments: true
+categories: [octopress]
+tags: [markdown, octopress]
+---
+markdown的基础语法网上到处都是，比如[Markdown 语法说明 (简体中文版) ](http://wowubuntu.com/markdown/)  
+我在这里只是记录比较特殊的一些语法，特别是针对octopress博客的用法：
+
+1.在“阅读全文”处将文章断开，则要在断开处写上一行`<!--more-->`
+
+2.插入代码：直接在要插入代码的前面空一格制表符(四个空格也可以的)
+
+3.添加链接：`[链接文字](链接url)`
+
+<!--more-->
+
+4.小空隙的换行：直接在行末添加两个空格
+
+5.插入空行：`<br>`
+
+6.插入图片：`![文字](路径)`，octopress博客里一般图片是放在`/source/images/`中，所以一般路径就写成`/images/*.png`
+
