@@ -58,4 +58,16 @@ ubuntu内核DEB包[下载地址](http://kernel.ubuntu.com/~kernel-ppa/mainline/)
     sudo make install            安装内核
     sudo reboot                  重启以验证内核
 
+可能遇到的错误：
+执行`make menuconfig`的时候如果出现如下错误，那么
+
+     *** Unable to find the ncurses libraries or the
+     *** required header files.
+     *** 'make menuconfig' requires the ncurses libraries.
+     *** 
+     *** Install ncurses (ncurses-devel) and try again.
+     *** 
+    make[1]: *** [scripts/kconfig/dochecklxdialog] 错误 1
+    make: *** [menuconfig] 错误 2
+那么可以执行`sudo apt-get install libncurses5-dev`
 
